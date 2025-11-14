@@ -8,6 +8,12 @@ class BookInstanceInline(admin.TabularInline):
     extra = 0
 
 
+class BookInline(admin.TabularInline):
+    """Встроенный список книг для автора"""
+    model = Book
+    extra = 0
+
+
 class BookAdmin(admin.ModelAdmin):
     # Поля, которые будут отображаться в списке книг
     list_display = ('title', 'display_author', 'display_genre')
@@ -52,7 +58,10 @@ class AuthorAdmin(admin.ModelAdmin):
     list_display = ('last_name', 'first_name', 'date_of_birth', 'date_of_death')
     list_filter = ('date_of_birth', 'date_of_death')
     search_fields = ('last_name', 'first_name')
-    fields = ['first_name', 'last_name', ('date_of_birth', 'date_of_death')]  # ОБНОВЛЕНО: даты в одной строке
+    fields = ['first_name', 'last_name', ('date_of_birth', 'date_of_death')]
+
+    # ДОБАВЛЕНО: встроенный список книг для автора
+    inlines = [BookInline]
 
 
 class GenreAdmin(admin.ModelAdmin):
@@ -61,7 +70,8 @@ class GenreAdmin(admin.ModelAdmin):
 
 
 class BookInstanceAdmin(admin.ModelAdmin):
-    list_display = ('book', 'status', 'due_back', 'id')
+    # ОБНОВЛЕНО: представление списка BookInstance
+    list_display = ('book', 'status', 'due_back', 'id_display')
     list_filter = ('status', 'due_back')
     search_fields = ('book__title', 'imprint')
     fieldsets = (
@@ -72,6 +82,12 @@ class BookInstanceAdmin(admin.ModelAdmin):
             'fields': ('status', 'due_back')
         }),
     )
+
+    def id_display(self, obj):
+        """Отображает ID книги"""
+        return str(obj.id)
+
+    id_display.short_description = 'ID экземпляра'
 
 
 # Регистрация моделей в админке
