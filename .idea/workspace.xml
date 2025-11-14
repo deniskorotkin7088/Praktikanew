@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/mytestsite/catalog/urls.py" afterDir="false" />
+    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="Использование моделей">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/mytestsite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/mytestsite/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/mytestsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/mytestsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/mytestsite/mytestsite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,22 +31,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="35NVbawVtAQijHNTOSK88PPqko2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -53,6 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1762950588946</updated>
     </task>
+    <task id="LOCAL-00001" summary="Использование моделей">
+      <option name="closed" value="true" />
+      <created>1763002550437</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763002550437</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Использование моделей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Использование моделей" />
   </component>
 </project>
