@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="Использование моделей">
+    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="4 part">
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/base_generic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;deniskorotkin7088&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/deniskorotkin7088/Praktikanew.git&quot;,
+    &quot;accountId&quot;: &quot;900b292a-b6b9-4ef9-aec4-d2f968f96e03&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -59,11 +75,28 @@
       <option name="project" value="LOCAL" />
       <updated>1763002550437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4 part">
+      <option name="closed" value="true" />
+      <created>1763100308661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763100308661</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4 part">
+      <option name="closed" value="true" />
+      <created>1763100455858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763100455858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Использование моделей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Использование моделей" />
+    <MESSAGE value="4 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 part" />
   </component>
 </project>
