@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="5 part">
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/catalog/author_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/catalog/author_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/catalog/book_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/catalog/book_list.html" afterDir="false" />
+    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="7 part">
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/catalog/bookinstance_list_borrowed_all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/catalog/bookinstance_list_borrowed_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/templates/registration/password_reset_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/templates/registration/password_reset_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/base_generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/catalog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" afterDir="false" />
@@ -63,6 +70,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog\templates\catalog" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog\templates" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog" />
@@ -116,13 +124,22 @@
       <option name="project" value="LOCAL" />
       <updated>1763175153895</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="7 part">
+      <option name="closed" value="true" />
+      <created>1763457604139</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763457604139</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Использование моделей" />
     <MESSAGE value="4 part" />
     <MESSAGE value="5 part" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 part" />
+    <MESSAGE value="7 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 part" />
   </component>
 </project>

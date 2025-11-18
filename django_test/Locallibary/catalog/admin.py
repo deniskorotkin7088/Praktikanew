@@ -69,17 +69,19 @@ class GenreAdmin(admin.ModelAdmin):
     search_fields = ('name',)
 
 
+@admin.register(BookInstance)
 class BookInstanceAdmin(admin.ModelAdmin):
-    # ОБНОВЛЕНО: представление списка BookInstance
-    list_display = ('book', 'status', 'due_back', 'id_display')
+    # ОБЪЕДИНЕНО: представление списка BookInstance
+    list_display = ('book', 'status', 'borrower', 'due_back', 'id_display')
     list_filter = ('status', 'due_back')
     search_fields = ('book__title', 'imprint')
+
     fieldsets = (
         (None, {
             'fields': ('book', 'imprint', 'id')
         }),
         ('Availability', {
-            'fields': ('status', 'due_back')
+            'fields': ('status', 'due_back', 'borrower')
         }),
     )
 
@@ -94,4 +96,3 @@ class BookInstanceAdmin(admin.ModelAdmin):
 admin.site.register(Book, BookAdmin)
 admin.site.register(Author, AuthorAdmin)
 admin.site.register(Genre, GenreAdmin)
-admin.site.register(BookInstance, BookInstanceAdmin)
