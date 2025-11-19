@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="9 part">
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests/ test_forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests/test_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/__init__.py" afterDir="false" />
+    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="10 part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763517235234</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="10 part">
+      <option name="closed" value="true" />
+      <created>1763532322131</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763532322131</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +159,7 @@
     <MESSAGE value="7 part" />
     <MESSAGE value="8 part" />
     <MESSAGE value="9 part" />
-    <option name="LAST_COMMIT_MESSAGE" value="9 part" />
+    <MESSAGE value="10 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 part" />
   </component>
 </project>
