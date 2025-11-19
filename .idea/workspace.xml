@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="8 part">
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/templates/catalog/book_renew_librarian.html" afterDir="false" />
+    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="9 part">
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests/ test_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/tests/test_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_test/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,10 +67,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog\tests" />
+      <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog\templates\catalog" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog\templates" />
-      <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -128,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763478183281</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="9 part">
+      <option name="closed" value="true" />
+      <created>1763517235234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763517235234</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +155,7 @@
     <MESSAGE value="5 part" />
     <MESSAGE value="7 part" />
     <MESSAGE value="8 part" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 part" />
+    <MESSAGE value="9 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="9 part" />
   </component>
 </project>
