@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="10 part">
+    <list default="true" id="725e203f-4153-4b13-bdaf-77417236b3fe" name="Changes" comment="11 part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/Locallibary2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/Locallibary/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/catalog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/Locallibary/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,18 +55,19 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Honor/Desktop/сур/Praktikanew-master&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Honor/Desktop/Praktikanew-masteк/pythonProject1&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test" />
+      <recent name="C:\Users\Honor\PycharmProjects\pythonProject1" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog\tests" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog" />
       <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary" />
-      <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog\templates\catalog" />
-      <recent name="C:\Users\Honor\PycharmProjects\pythonProject1\django_test\Locallibary\catalog\templates" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -149,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763532322131</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="10 and 11 part">
+      <option name="closed" value="true" />
+      <created>1763563071503</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763563071503</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +169,7 @@
     <MESSAGE value="8 part" />
     <MESSAGE value="9 part" />
     <MESSAGE value="10 part" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 part" />
+    <MESSAGE value="10 and 11 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 and 11 part" />
   </component>
 </project>

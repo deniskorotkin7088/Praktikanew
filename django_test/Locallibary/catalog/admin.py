@@ -60,7 +60,6 @@ class AuthorAdmin(admin.ModelAdmin):
     search_fields = ('last_name', 'first_name')
     fields = ['first_name', 'last_name', ('date_of_birth', 'date_of_death')]
 
-    # ДОБАВЛЕНО: встроенный список книг для автора
     inlines = [BookInline]
 
 
